@@ -5,7 +5,8 @@ const filtersAdapter = createEntityAdapter()
 
 const initialState = filtersAdapter.getInitialState({
     filtersLoadingStatus: 'idle',
-    activeFilter: 'all'
+    activeFilter: 'all',
+    filter: null
 })
 
 export const fetchFilters = createAsyncThunk(
