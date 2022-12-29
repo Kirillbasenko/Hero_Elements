@@ -11,7 +11,7 @@ export const fetchHeroes = createAsyncThunk(
    "heroes/fetchHeroes",
    () => {
       const {request} = useHttp();
-      return request("http://localhost:3001/heroes")
+      return request("https://kirillbasenko.github.io/Hero_Elements/heroes")
    }
 )
 
